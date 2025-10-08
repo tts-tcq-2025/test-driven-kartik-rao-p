@@ -34,7 +34,7 @@ Start Test-driven approach
 2. Write the minimum amount of code that'll make it pass.
 3. Refactor any assumptions, continue to pass this test. Do not add any code without a corresponding test.
 
-## Requirements
+## Functional Requirements
 
 - Develop a api `sumOfDigits` that takes input string and calculate sum of digits.
 - string contains numbers seperated by delimiter.
@@ -46,4 +46,10 @@ Start Test-driven approach
 - exception `negatives not allowed` is raised when negative number is given as input.
 - if there are multiple negatives, show all of them in the exception message.
 - Numbers bigger than 1000 should be ignored.
+
+## Quality requirements
+
+- Quality Parameters: Maximum Cyclomatic Complexity Number (CCN) per function: `3`.
+- 100% line and branch coverage through unit tests.
+- Test-Driven Development (TDD) approach: write the smallest failing test first, implement minimal code to pass, then refactor.
 
