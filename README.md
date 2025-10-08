@@ -34,7 +34,7 @@ Start Test-driven approach
 2. Write the minimum amount of code that'll make it pass.
 3. Refactor any assumptions, continue to pass this test. Do not add any code without a corresponding test.
 
-# Requirements
+## Requirements
 
 - Develop a api `sumOfDigits` that takes input string and calculate sum of digits.
 - string contains numbers seperated by delimiter.
