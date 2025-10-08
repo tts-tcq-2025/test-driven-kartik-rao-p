@@ -38,6 +38,8 @@ Start Test-driven approach
 
 - Develop a api `sumOfDigits` that takes input string and calculate sum of digits.
 - string contains numbers seperated by delimiter.
+- For empty string `0` shall be returned.
+- API shall accept max amount of numbers and new lines between numbers.
 - by default delimiter is `,`
 - string supports different delimiters in beginning of the string `“//[delimiter]\n[numbers…]”` example “//;\n1;2”
 - Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
