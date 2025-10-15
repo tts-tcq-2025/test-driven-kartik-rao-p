@@ -33,3 +33,23 @@ Start Test-driven approach
 1. Write the smallest possible failing test: give input `"" assert output to be 0 ` .
 2. Write the minimum amount of code that'll make it pass.
 3. Refactor any assumptions, continue to pass this test. Do not add any code without a corresponding test.
+
+## Functional Requirements
+
+- Develop a api `sumOfDigits` that takes input string and calculate sum of digits.
+- string contains numbers seperated by delimiter.
+- For empty string `0` shall be returned.
+- API shall accept max amount of numbers and new lines between numbers.
+- by default delimiter is `,`
+- string supports different delimiters in beginning of the string `“//[delimiter]\n[numbers…]”` example “//;\n1;2”
+- Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
+- exception `negatives not allowed` is raised when negative number is given as input.
+- if there are multiple negatives, show all of them in the exception message.
+- Numbers bigger than 1000 should be ignored.
+
+## Quality requirements
+
+- Quality Parameters: Maximum Cyclomatic Complexity Number (CCN) per function: `3`.
+- 100% line and branch coverage through unit tests.
+- Test-Driven Development (TDD) approach: write the smallest failing test first, implement minimal code to pass, then refactor.
+
